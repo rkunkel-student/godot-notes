@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Squid’s Godot Notes &mdash; Squid&#39;s Godot Notes 11/4/2021 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to Godot Notes’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> Squid's Godot Notes
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Squid’s Godot Notes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#getting-started">Getting Started</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#what-is-covered">What is Covered?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#about-godot">About Godot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#install-and-setup">Install and Setup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#standard-version-vs-mono-version">Standard version vs Mono version</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#brief-on-node-architecture">Brief on “Node” Architecture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#creating-our-first-project">Creating our first project</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#creating-our-first-2d-project">Creating our first 2D project</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Squid's Godot Notes</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Squid’s Godot Notes</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/readme.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section class="tex2jax_ignore mathjax_ignore" id="squid-s-godot-notes">
+<h1>Squid’s Godot Notes<a class="headerlink" href="#squid-s-godot-notes" title="Permalink to this headline"></a></h1>
+<div class="warning admonition">
+<p class="admonition-title">Warning</p>
+<p>I am using:</p>
+<ul class="simple">
+<li><p>Windows 10</p></li>
+<li><p>Godot   3.3.4</p></li>
+</ul>
+</div>
+<section id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline"></a></h2>
+<section id="what-is-covered">
+<h3>What is Covered?<a class="headerlink" href="#what-is-covered" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Installing Godot</p></li>
+<li><p>node and scene architecture</p></li>
+<li><p>Scripting in GDScript</p></li>
+<li><p>Godot’s Input and Audio Systems</p></li>
+<li><p>Creating a 2D Project</p></li>
+</ul>
+</section>
+<section id="about-godot">
+<h3>About Godot<a class="headerlink" href="#about-godot" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Free Open Source Game Engine</p></li>
+<li><p>Create 2D and 3D games</p></li>
+<li><p>Community driven, custom versions, extenability</p></li>
+</ul>
+</section>
+<section id="install-and-setup">
+<h3>Install and Setup<a class="headerlink" href="#install-and-setup" title="Permalink to this headline"></a></h3>
+<p><a class="reference external" href="https://godotengine.org/download">Download</a> and extract to a known location, double-click to launch.</p>
+</section>
+<section id="standard-version-vs-mono-version">
+<h3>Standard version vs Mono version<a class="headerlink" href="#standard-version-vs-mono-version" title="Permalink to this headline"></a></h3>
+<p>Those with C# experience from unity or elsewhere might want to use the Mono version.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The 32-bit Mono binaries do not run on 64-bit Windows systems at the time being.</p>
+</div>
+</section>
+<section id="brief-on-node-architecture">
+<h3>Brief on “Node” Architecture<a class="headerlink" href="#brief-on-node-architecture" title="Permalink to this headline"></a></h3>
+<p>todo..</p>
+</section>
+<section id="creating-our-first-project">
+<h3>Creating our first project<a class="headerlink" href="#creating-our-first-project" title="Permalink to this headline"></a></h3>
+<ol class="simple">
+<li><p>Double-click the editor to launch.</p></li>
+<li><p>Select “New Project” in the right menu</p></li>
+<li><p>Specify a “Project Path”</p></li>
+<li><p>Sepcify a “Project Name”</p></li>
+<li><p>Click Create Folder</p></li>
+<li><p>OpenGL ES 3.0 is selected by default</p></li>
+<li><p>Select “Create &amp; Edit”</p></li>
+</ol>
+<p>Ta-Duh! We’re off and running to making our first game within GoDot.</p>
+</section>
+</section>
+<section id="creating-our-first-2d-project">
+<h2>Creating our first 2D project<a class="headerlink" href="#creating-our-first-2d-project" title="Permalink to this headline"></a></h2>
+<ol class="simple">
+<li><p>In the top menu, select “2D”</p></li>
+</ol>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to Godot Notes’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Roland Kunkel.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
